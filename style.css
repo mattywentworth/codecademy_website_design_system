@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Raleway font face isn't working */
+@font-face {
+    font-family: 'Raleway';
+    src: url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+}
+
+html, body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin: 0px 20px;
+}
+
+header {
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding: 5px 0px;
+}
+
+#colors, #fonts, #text-styles {
+    margin: 20px 0px 10px 0px;
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: black;
+    padding: 10px;
+    background-color:darkgray;
+    width: 15%;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#color-rules {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+#colors div > div {
+    display: inline-block;
+    /* height: 80px;
+    width: 250px; */
+    padding: 30px 0px 30px 0px;
+    width: 31%;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+p {
+    position: relative;
+    vertical-align: middle;
+}
+
+#dark-aqua {
+    background-color: #1D5D70;
+}
+
+#pine-green {
+    background-color: #1D5B43;
+}
+
+#mariana-blue {
+    background-color: #0B181A;
+    color: white;
+}
+
+#crystal-blue {
+    background-color: #9CC8CB;
+}
+
+#sandstone {
+    background-color: #C96929;
+}
+
+#random-red {
+    background-color: #8E3437;
+}
+
+#fonts h3 {
+    position: relative;
+    left: 18%;
+}
+
+#font-rules {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#font-rules div {
+    /* background-color: lightblue; */
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    width: 31%;
+    margin: 10px 10px;
+    vertical-align: top;
+}
+
+
+
+h4 {
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+
+/* Raleway font face isn't working */
+#raleway {
+    font-family: 'Raleway'; 
+}
+
+#helvetica {
+    font-family: helvetica;
+}
+
+#courier-new {
+    font-family: 'courier new';
+}
+
+#font-rules p {
+    padding: 5px 0px 5px 0px;
+}
+
+.standard {
+    font-style: none;
+    /* padding: 5px 0px 5px 0px; */
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#text-styles h3 {
+    position: relative;
+    left: 36%;
+}
+
+#text-styles-rules {
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+#text-styles-rules div {
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    width: 31%;
+    margin: 10px 10px;
+    vertical-align: top;
+}
+
+#text-styles-rules h4 {
+    text-decoration: none;
+}
+
+#h1 h4 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Raleway';
+    color: #1D5D70;
+}
+
+#h2 h4 {
+    font-size: 27px;
+    font-weight: 500;
+    font-family: 'Raleway';
+    color: #1B5D43;
+}
+
+#p h4 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: helvetica;
+    color: black;
+}
+
+#text-styles-rules ul {
+    padding-left: 30px;
+}
